@@ -93,3 +93,40 @@ This function prints the last digit of a number.
 Prototype: def print_last_digit(number):
 Returns the value of the last digit
 You are not allowed to import any module
+
+------------------------
+10-add.py
+------------------------
+This function adds two integers and returns the result.
+
+Prototype: def add(a, b):
+Returns the value of a + b
+You are not allowed to import any module
+
+-----------------------
+11-pow.py
+-----------------------
+This function computes a to the power of b and return the value.
+
+Prototype: def pow(a, b):
+Returns the value of a ^ b
+You are not allowed to import any module
+
+-----------------------
+12-fizzbuzz.py
+-----------------------
+This function prints the numbers from 1 to 100 separated by a space.
+
+For multiples of three print Fizz instead of the number and for multiples of five print Buzz.
+For numbers which are multiples of both three and five print FizzBuzz.
+Prototype: def fizzbuzz():
+Each element should be followed by a space
+You are not allowed to import any module
+
+-----------------------
+13-insert_number.c, lists.h
+-----------------------
+This function in C that inserts a number into a sorted singly linked list.
+
+Prototype: listint_t *insert_node(listint_t **head, int number);
+Return: the address of the new node, or NULL if it failed
